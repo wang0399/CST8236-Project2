@@ -18,7 +18,7 @@ public class SwitchMaterial : MonoBehaviour {
         transform.Rotate(Vector3.right * Time.deltaTime * rotationSpeed);
         transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed);
 
-        //Evaluate keypress and change materia
+        //Evaluate keypress and change material
         try {
             if (Input.GetKeyDown(KeyCode.Alpha1)) {
                 if (materialsToChnage.Length >= 1) {
